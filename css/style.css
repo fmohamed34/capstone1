@@ -1,0 +1,118 @@
+body {
+    color:rgb(236, 86, 86);
+    font-family: sans-serif;
+}
+nav {
+    display: block;
+    /* height: 3em;  */
+} 
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    margin: 0.5px;
+    background-color: rgba(173, 85, 85, 0.425);
+    color: rgb(13, 13, 14);
+    padding: 0.5em;
+}
+.image1 {
+ height: 300px;
+ width: 275px;
+ padding: 16em
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.box{
+    width: auto;
+    padding: 30px;
+    position: absolute;
+    top: 33%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,0,4);
+    text-align:left;
+}
+.box h1
+{
+    color:rgb(20, 20, 20);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+body {
+    background-color:palegoldenrod
+}
+.image2 {
+    height: 300px;
+    padding: 10em
+}
+.products {
+    display: flex;
+    width: 100%;
+    max-width: 1050px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.card {
+    width: auto;
+    flex-basis: 48%;
+    margin-top: 50px;
+}
+.card img {
+    height: auto;
+    width: auto;
+}
+
+.register input {
+margin-bottom: 0.5em;
+}
+.box a {
+    color: #336
+
+}
+.bi-cart {
+
+    width: 300px;
+    height: 300px;
+}
+.box form {
+    display: inline-block;
+    width: 40%;
+}
+.table {
+    background-color: azure;
+    display: inline-block;
+    width: auto;
+}
+tr.total td, 
+tr.total th {
+    border-top: 2px solid black;
+}
+
+.methods {
+    width: 20%;
+    height: auto;
+}
+
+.footer {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
+label {
+    display: inline-block;
+}
+.checkout-content {
+    padding: 3em;
+}
+input[type=submit] {
+    background-color:rgba(173, 85, 85, 0.425);
+}
+p {
+    padding: 2em;
+}
